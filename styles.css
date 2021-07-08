@@ -1,0 +1,50 @@
+
+body {
+  /* margin: 0 is not assigning 0px of margin, 
+  it  is removing all margin entirely
+  This is to remove the default 8px of margin on the bady element */
+  margin: 0;
+  background-color:grey;
+}
+/* Here I have created some classes that set the display property of an element */
+
+.d-block {
+    display: block;
+  }
+  
+  .d-inline {
+    display: inline;
+  }
+
+
+  .d-inline-block {
+    display: inline-block;
+  }
+
+  
+  .d-none{
+    display: none;
+  }
+
+
+.poster-card {
+  border: 2px solid black;
+  width: 500px;
+  height: 600px;
+  margin: 10px;
+  padding: 20px;
+  
+  
+}
+
+.poster-card img{
+  height: 500px;
+  
+}
+
+.poster-card h1{
+  text-align: center;
+}
+  
+
+
