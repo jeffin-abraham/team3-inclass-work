@@ -1,0 +1,12 @@
+.main-element {
+    position: static;
+    left: 10px;
+    bottom: 10px;
+    background-color: yellow;
+    padding: 10px;
+}
+
+.sibling-element {
+    padding: 10px;
+    background-color: #f2f2f2;
+}
